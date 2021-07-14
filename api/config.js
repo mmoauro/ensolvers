@@ -10,9 +10,9 @@ let config = {
     production: {
         database: {
             host: 'us-cdbr-east-04.cleardb.com',
-            user: 'bdfdb875fa246f',
-            password: 'e51f8d14',
-            db: 'heroku_667d6b641070553'
+            user: 'b3183215058c38',
+            password: 'add55320',
+            db: 'heroku_be358c470ac88c6'
         },
     }
 };
