@@ -1,9 +1,9 @@
-#To-Do List app
+# To-Do List app
 
 
 This application was developed having received a given statement
 
-##Dependencies
+## Dependencies
 
 To run the app you must have: MySQL 8.0.25, Node 12.21.0, and npm 7.5.2.
 
@@ -19,7 +19,7 @@ sudo apt install nodejs
 sudo apt install npm
 ```
 
-##Installation
+## Installation
 
 To install the app you need execute the following commands:
 
@@ -37,7 +37,7 @@ bash script.sh
 
 The last command will set up the db and install all the node dependencies to run the app
 
-##Usage
+## Usage
 After the enviroment set up open your browser at: http://localhost:8000/
 
 Default email for the app is: test@gmail.com
