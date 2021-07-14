@@ -14,13 +14,13 @@ app.use(express.urlencoded({
     extended: true
 }));
 app.use(bodyParser.json());
-app.use(express.static(path.join(__dirname, '../app/dist')));
+app.use(express.static(__dirname + '/public/'));
 app.use(tasks);
 app.use(folders);
 app.use(users);
 
 app.get('/', (req,res) => {
-    res.sendFile(path.join(__dirname, '../app/build/index.html'));
+    res.sendFile(__dirname + '/public/index.html');
 });
 
 app.listen(process.env.PORT || 8000);
