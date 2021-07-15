@@ -6,7 +6,6 @@ const app = express();
 const tasks = require('./routes/tasks');
 const folders = require('./routes/folders');
 const users = require('./routes/users');
-const path = require("path");
 
 
 app.use(cors({origin: '*'}));
